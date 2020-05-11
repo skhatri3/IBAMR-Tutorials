@@ -1,0 +1,10 @@
+#!/bin/bash
+#SBATCH --job-name=first_ibfe_job
+#SBATCH --ntasks-per-node=16
+#SBATCH --time=2:00:00
+#SBATCH --mem=1000
+#SBATCH --partition=fast.q
+#SBATCH --output IBFE2D.out
+
+mpirun ./main2d input2d
+

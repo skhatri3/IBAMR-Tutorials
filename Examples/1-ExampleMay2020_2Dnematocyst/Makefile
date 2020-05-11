@@ -13,9 +13,12 @@ LIBS = $(LIBS) -lnetcdf -lcurl
 # IBAMR_BUILD_DIR = /nas02/apps/ibamr-2016-11/OFED-1.5.2/sfw/ibamr/ibamr-objs-opt
 #
 # DW (MODULE 2018-03  <-- March 2018 Module Install)
-IBAMR_SRC_DIR = /nas/longleaf/apps-dogwood/ibamr/2018-03/sfw/ibamr/IBAMR
-IBAMR_BUILD_DIR  =/nas/longleaf/apps-dogwood/ibamr/2018-03/sfw/ibamr/ibamr-objs-opt
+#IBAMR_SRC_DIR = /nas/longleaf/apps-dogwood/ibamr/2018-03/sfw/ibamr/IBAMR
+#IBAMR_BUILD_DIR  =/nas/longleaf/apps-dogwood/ibamr/2018-03/sfw/ibamr/ibamr-objs-opt
 #
+# UCM MERCED IBAMR INSTALL 
+IBAMR_SRC_DIR = /home/courses/skhatri3/sfw/linux/ibamr/IBAMR
+IBAMR_BUILD_DIR = /home/courses/skhatri3/sfw/linux/ibamr/ibamr-objs-opt
 
 ######################################################################
 ## Include variables specific to the particular IBAMR build.
